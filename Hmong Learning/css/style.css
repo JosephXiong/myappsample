@@ -1,0 +1,211 @@
+body, html{
+  height:100%;
+  margin:0;
+  font-size:16px;
+  font-family:"Lato", "sans-serif";
+  font-weight:400;
+  line-height:1.8em;
+  color:#666;
+}
+
+.pimg1, .pimg2, .pimg3{
+  position:relative;
+  opacity:0.70;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
+}
+
+.pimg1{
+  background-image:url('../img/paj_ntaub.jpg');
+  min-height:100%;
+}
+
+.pimg2{
+  background-image:url('../img/Hmong_money.jpg');
+  min-height:400px;
+}
+
+.pimg3{
+  background-image:url('../img/Hmong_necklace.jpg');
+  min-height:400px;
+}
+
+.section{
+  text-align:center;
+  padding:50px 80px;
+}
+
+.section-light{
+  background-color:#f4f4f4;
+  color:#666;
+}
+
+.section-dark{
+  background-color:#282e34;
+  color:#ddd;
+}
+
+.ptext{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+
+.ptext .border{
+  background-color:#111;
+  color:#fff;
+  padding:20px;
+}
+
+.ptext .border.trans{
+  background-color:transparent;
+}
+
+@media(max-width:568px){
+  .pimg1, .pimg2, .pimg3{
+    background-attachment:scroll;
+  }
+}
+
+#topNavbar{
+  margin-bottom: .5px;
+}
+
+.fa-facebook-sqaure{
+  padding: 0px 0px;
+}
+
+ul li {
+  text-align: left;
+}
+
+iframe {
+    display: block;
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    border: 0;
+    padding: 10px;
+    background-color: grey;
+}
+
+.lyrics {
+  text-align: center;
+  background-color: #7b7e82;
+  color: #ffffff;
+  font-family: "sans-serif"
+  font-size: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color:rgba(40, 46, 52,1.0);
+    height:300px;
+    /*position:absolute;*/
+    width:100%;
+    bottom:0;
+    font-weight:lighter;
+    color:white;
+}
+.footerHeader{
+    width:100%;
+    padding:1em;
+    background-color:rgba(59, 66, 73,1.0);
+    text-align:center;
+    color:white;
+}
+footer h3{
+    font-weight:lighter;
+}
+footer ul{
+    padding-left:5px;
+    list-style:none;
+}
+footer p{
+    text-align : justify;
+    font-size : 12px;
+}
+footer iframe {
+    width:100%;
+    position:relative;
+    height:170px;
+}
+.sm{
+    list-style:none;
+    overflow:auto;
+}
+.sm li {
+    display: inline;
+    padding:5px;
+    float:left;
+} 
+.sm li a img {
+    width:32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
